@@ -2,8 +2,8 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
+alt = Phattaranan Rueangrat
+Phattaranan Rueangrat
 Web developer
 
 Show Contacts

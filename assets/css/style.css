@@ -197,7 +197,31 @@ article {
   z-index: 1;
 }
 
+.skill-box {
+  position: relative;
+  background: var(--border-gradient-onyx);
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: var(--orange-yellow-crayola);
+  box-shadow: var(--shadow-1);
+  z-index: 1;
+}
+
 .icon-box::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--eerie-black-1);
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.skill-box::before {
   content: "";
   position: absolute;
   inset: 1px;
@@ -867,6 +891,13 @@ main {
   border-radius: inherit;
 }
 
+.skill-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 15px;
+}
+
 
 
 
@@ -1311,6 +1342,13 @@ textarea.form-input::-webkit-resizer { display: none; }
     font-size: 18px;
   }
 
+  .skill-box {
+    width: auto;
+    height: 48px;
+    border-radius: 12px;
+    font-size: 18px;
+    padding: 0 12px 0 12px;
+  }
 
 
   /**
